@@ -16,7 +16,7 @@ def prediction_result_DBS():
 
 @app.route("/faq",methods=["GET","POST"])
 def faq():
-    return(render_template("faq.html")
+    return(render_template("faq.html"))
            
 if __name__=="__main__":
     app.run()
